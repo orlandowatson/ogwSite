@@ -1,0 +1,16 @@
+/* media queries */
+
+/* smartphones */
+@media screen and (min-width: 720px) {
+    .sects {
+        float: left;
+        width: 25%;
+        height: 100%;
+        word-wrap: break-word;
+    }
+    
+    .sects h1 {
+        font-size: 2.2em;
+        width: 0.5em;
+    }
+}

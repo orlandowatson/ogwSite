@@ -1,0 +1,190 @@
+/* Main CSS */
+
+/*Baseline styles*/
+* {
+    box-sizing: border-box;   
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 1em;
+    background-color: #000;
+}
+
+#main-content {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#projects,
+#experience,
+#contact {
+    box-shadow: 0px -10px 30px #000;
+}
+
+#about-content,
+#experience-content,
+#projects-content,
+#contact-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background: #010711;
+}
+
+#experience-content {
+    background: #041024;   
+}
+
+#projects-content {
+    background: #1E3150;   
+}
+
+#contact-content {
+    background: #334565;   
+}
+.sects {
+    width: 100%;
+    height: 25%;
+    margin: 0 auto;
+    display: none;
+}
+
+h1 {
+    margin: auto auto;
+    padding: 1.4em 0;
+    text-align: center;
+    font-family: 'Changa One', sans-serif;
+    color: white;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;   
+}
+
+/*About section | BOTH INTRO AND DISPLAY PAGE | INCLUDES COMMON STYLES FOR OTHER SECTIONS AS WELL*/
+#about {
+    background: #010711;
+}
+
+#about-content header, 
+#experience-content header, 
+#projects-content header,
+#contact-content header {
+    width: 90%;
+    height: 10%;
+    margin: 0 auto;
+    border-bottom: 0.5em solid #FFF;
+}
+
+#about-content h1, 
+#experience-content h1, 
+#projects-content h1, 
+#contact-content h1 {
+    margin-top: 0.5em;
+    padding: 0.1em;
+    width: 80%;
+    text-align: left;
+    float: left;
+}
+
+.close {
+    width: 100%;
+    float: right;
+    max-width: 1.3em;
+    max-height: 1.3em;
+    margin: 0.6em 0.6em 0.6em 0;
+}
+.about-content-body-pic {
+    border: 5px solid red;
+    max-width: 100%;
+    margin: 1.5em auto;
+}
+
+.about-pic {
+    max-width: 40%;
+    display: table;
+    margin: 0 auto;
+    border-radius: 100%
+}
+
+.about-content-body {
+    height: 40%;
+    border: 5px solid red;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+/*Experience section | BOTH INTRO AND DISPLAY PAGE*/
+#experience {
+    background: #041024;   
+}
+
+/*Projects section | BOTH INTRO AND DISPLAY PAGE*/
+#projects {
+    background: #1E3150;
+}
+
+/*Contact section | BOTH INTRO AND DISPLAY PAGE*/
+#contact {
+    background: #334565;   
+}
+
+/* FOOTER STYLES */
+
+footer {
+    width: 100%;
+    max-height: 15%;
+    position: absolute;
+    bottom: 0;
+    margin: 0.3125em auto;
+    text-align: center;
+    color: #fff;;
+}
+
+.social-media-icons li {
+    max-width: 10%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social-media-icons img {
+    margin: 0 auto;
+    width: 32px;
+    max-width: 100%;   
+}
+
+.email-icon:hover {
+    background-color: #FFE600;   
+}
+
+.facebook-icon:hover {
+    background-color: #0012FF;   
+}
+.github-icon:hover {
+    background-color: #000000;   
+}
+.google-icon:hover {
+    background-color: #FF0000;   
+}
+.instagram-icon:hover {
+    background-color: #633203;   
+}
+.linkedin-icon:hover {
+    background-color: #01459C;   
+}
+
+.twitter-icon:hover {
+    background-color: #1AA6FF;   
+}
