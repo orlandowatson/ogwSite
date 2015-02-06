@@ -1,0 +1,19 @@
+{
+  "name": "ogwSite",
+  "version": "1.0.0",
+  "description": "New website template",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theorlando-mmd/ogwSite.git"
+  },
+  "author": "Orlando Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theorlando-mmd/ogwSite/issues"
+  },
+  "homepage": "https://github.com/theorlando-mmd/ogwSite"
+}
